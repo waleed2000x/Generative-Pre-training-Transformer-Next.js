@@ -14,7 +14,6 @@ const BackgroundParent = styled.div`
   position: fixed;
   top: 200px;
   left: 0px;
-  /* transform: translate(50% 50%); */
   height: 100%;
   width: 100%;
   z-index: 0;
