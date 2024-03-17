@@ -1,7 +1,7 @@
 import { IconButton } from "@mui/material";
-import RouteProtector from "../components/RouteProtector";
+import RouteProtector from "../../components/RouteProtector";
 import SendIcon from "@mui/icons-material/Send";
-import Inputs from "../components/Inputs";
+import Inputs from "../../components/Inputs";
 
 export default function Chat() {
   return (
