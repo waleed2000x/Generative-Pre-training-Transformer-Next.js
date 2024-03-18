@@ -125,16 +125,21 @@ body {
       width: 100%;
       overflow: hidden;
       @include GLASS();
-      & input {
-        height: 100%;
-        width: 100%;
-      }
-      & button {
+      & form {
         display: flex;
-        justify-content: center;
+        width: 100%;
         align-items: center;
-        height: 100%;
-        width: 70px;
+        & input {
+          height: 100%;
+          width: 100%;
+        }
+        & button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 70px;
+        }
       }
     }
   }

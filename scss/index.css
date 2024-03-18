@@ -143,11 +143,16 @@ body {
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
-.chat-parent .chat-box-text-bar input {
+.chat-parent .chat-box-text-bar form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.chat-parent .chat-box-text-bar form input {
   height: 100%;
   width: 100%;
 }
-.chat-parent .chat-box-text-bar button {
+.chat-parent .chat-box-text-bar form button {
   display: flex;
   justify-content: center;
   align-items: center;
